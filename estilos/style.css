@@ -37,7 +37,7 @@ section#login {
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
 
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); /* transform Sempre nas últimas linhas */
     transition: width .3s, height .3s;
     transition-timing-function: ease;
 }
@@ -94,7 +94,7 @@ div.campo > input {
     border: 0px;
     border-radius: 8px;
     padding: 4px;
-    transform: translateY(-10px);
+    transform: translateY(-10px); /* transform Sempre nas últimas linhas */
 }
 
 div.campo > input:focus-within {
@@ -129,7 +129,7 @@ form > a.botao {
     background-color: white;
     color: #2d6462;
     border: 1px solid #49a09d;
-    border-radius: 5px;
+    border-radius: 7px;
     text-decoration: none;
 }
 
